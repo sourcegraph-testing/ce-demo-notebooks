@@ -35,7 +35,7 @@ file:dockerfile :latest$ patternType:regexp
 #### Find a package removed in the Java 8 to 11 transition:
 
 ```sourcegraph
-lang:java import\s*sun.misc.(Base64Encoder|\*) and Base64Encoder patternType=regexp
+lang:java import\s*sun.misc.(Base64Encoder|\*) and Base64Encoder patternType:regexp
 ```
 
 #### Discover if a CVE-listed vulnerability impacts your code:
