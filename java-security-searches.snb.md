@@ -51,5 +51,5 @@ axios file:package.json repo:github.com/sourcegraph/*
 Can also be used as a monitor to track newly-committed versions of this pattern.
 
 ```sourcegraph
-lang:java try {...} catch (...) {} patternType=structural
+lang:java try {...} catch (...) {} patternType:structural
 ```
