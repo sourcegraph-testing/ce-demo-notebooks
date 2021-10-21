@@ -29,7 +29,7 @@ gpl license patternType:regexp
 #### Docker images not pinned to digest:
 
 ```sourcegraph
-file:dockerfile :latest$
+file:dockerfile :latest$ patternType:regexp
 ```
 
 #### Find a package removed in the Java 8 to 11 transition:
