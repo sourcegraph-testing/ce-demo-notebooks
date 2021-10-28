@@ -1,15 +1,16 @@
-## Email Verification Bug
-
-Precise code intel
+# Email Verification Bug
 
 
- 
+## Use Case
 
+## Discussion
+
+## Steps
 <p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image3.jpg "image_tooltip")
- POC: JS cross-repo/dependency navigation 
+ POC: JS cross-repo/dependency navigation
 
 
        ▪︎ [Demo link](https://sourcegraph.com/npm/axios/0.21.1@e0d402df0a442b8f0bfd012876693664747be8f9/-/blob/index.d.ts#L130:18&tab=references)
@@ -18,7 +19,7 @@ Precise code intel
        ▪︎ [Loom link](https://www.loom.com/share/a2ef32a776624186a6c7b67387388b47?sharedAppSource=personal_library)
 
 
-   ◦ 
+   ◦
 
 <p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.gif). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
@@ -32,4 +33,8 @@ Precise code intel
 
        ▪︎ [Loom link](https://www.loom.com/share/b5c54fc898df4f20969a8e8969e4c475?sharedAppSource=personal_library)
 
+## Value
 
+
+#### Tags
+#precise-code-intel
