@@ -1,6 +1,6 @@
 # Exploring Code with Sourcegraph
 
-Overwhelmed by finding code in GitHub, and looking for an easier way? Sourcegraph allows you to run precise, targeted searches across all of your code, allowing you to find what you need, make the right call with complete information, and continue with your day.
+Overwhelmed by finding code in GitHub, and looking for an easier way? Sourcegraph allows you to run precise, targeted searches across all of your code, allowing you to find what you need, make the right call with complete information, and continue with your day. For a full list of what we can do, [check out our search cheat sheet](https://learn.sourcegraph.com/how-to-search-code-with-sourcegraph-a-cheat-sheet).
 
 #### Find a list of repos in the Intel org in GitHub:
 
@@ -63,3 +63,5 @@ If you want full info about how to leverage structural search, check out our [st
 #### Sign up to explore search snippets and Insights:
 
 If you would like to save your own [frequent search snippets](https://docs.sourcegraph.com/code_search/how-to/scopes), [track changes to your code with Insights](https://docs.sourcegraph.com/code_insights), or [pull in additional code context with Insights](https://docs.sourcegraph.com/extensions), Sourcegraph is free to start using! To do so, you can make an account on [Sourcegraph's cloud instance](https://sourcegraph.com/search), or [download Sourcegraph locally](https://docs.sourcegraph.com/getting-started) to test things out!
+
+If you want to learn more about how Sourcegraph can help you search your code, check out our tutorials and video walk-throughs [on our Learn site](https://learn.sourcegraph.com/).
