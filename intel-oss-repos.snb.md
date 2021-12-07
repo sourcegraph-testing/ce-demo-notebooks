@@ -68,4 +68,4 @@ To learn how to use Sourcegraph for searching and understanding your code, check
 
 ## Use Sourcegraph to search your own code:
 
-Want to talk to someone about using Sourcegraph at Intel? [Schedule time with Sourcegraph's dedicated Intel team](https://calendly.com/jclifford-sourcegraph). We're here to help with any questions!
+Want to talk to someone about using Sourcegraph for your projects? [Schedule time with Sourcegraph's dedicated Intel team](https://calendly.com/jclifford-sourcegraph). We're here to help with any questions!
