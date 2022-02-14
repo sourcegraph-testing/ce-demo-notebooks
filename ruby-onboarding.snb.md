@@ -19,7 +19,7 @@ context:global file:\.ruby-version$ select:repo ^3\. patternType:regexp
 #### Find changes to Ruby version files
 
 ```sourcegraph
-context:global file:\.ruby-version$ repo:appfolio type:diff patternType:regexp
+context:global file:\.ruby-version$ repo:1debit type:diff patternType:regexp
 ```
 
 #### Structural search with Ruby classes
@@ -31,5 +31,5 @@ context:global class ... def ... end end lang:ruby patternType:structural
 #### TODOs added in code in the last 3 months
 
 ```sourcegraph
-context:global TODO type:diff repo:appfolio select:commit.diff.added after:"3 months ago" patternType:regexp
+context:global TODO type:diff repo:1debit select:commit.diff.added after:"3 months ago" patternType:regexp
 ```
