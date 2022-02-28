@@ -1,6 +1,8 @@
 # Exploring Code with Sourcegraph
 
-Overwhelmed by finding code in GitHub, and looking for an easier way? Sourcegraph allows you to run precise, targeted searches across all of your code, allowing you to find what you need, make the right call with complete information, and continue with your day. For a full list of what we can do, [check out our search cheat sheet](https://learn.sourcegraph.com/how-to-search-code-with-sourcegraph-a-cheat-sheet).
+Sourcegraph allows you to run precise, targeted searches across all of your code. This allows you to find what you need, make the right call with complete information, and continue with your day—ultimately supporting Intel's oneAPI and oneSource initiatives. 
+
+For a full list of the filters supported by our search functionality, [check out our search cheat sheet](https://learn.sourcegraph.com/how-to-search-code-with-sourcegraph-a-cheat-sheet).
 
 ## Find a list of repos in the Intel org in GitHub:
 
@@ -10,9 +12,15 @@ Sourcegraph indexes millions of OSS repos. If you're looking for code in a speci
 context:global repo:github.com/intel/ select:repo patternType:literal
 ```
 
+This is useful for internal developers working on projects as well as for allowing external developers to easily find and use Intel code in their own projects. This makes it easier to build with Intel hardware. Sourcegraph supports searching for both Assembly and C code:
+
+```sourcegraph
+context:global lang:C OR lang:Assembly  patternType:literal
+```
+
 ## Keep on top of changes:
 
-Say you're new to the Hyperscan project, and want to know what's been going on in the last year. Easily search those changes using our `type:diff` search and our `before:` and `after:` filters.
+Say you're a new developer using the Hyperscan project, and want to know what's been going on in the last year. Easily search those changes using our `type:diff` search and our `before:` and `after:` filters.
 
 ```sourcegraph
 context:global repo:^github\.com/intel/hyperscan$ before:"1 day ago" after:"1 year ago" type:diff patternType:literal
@@ -30,6 +38,8 @@ Everything is searchable, so if you want to see the full history of commits refe
 context:global repo:^github\.com/intel/hyperscan$ type:commit CSV patternType:literal
 ```
 
+Sourcegraph search makes a massive, complex codebase quickly and easily navigable. Unite your software teams across the org with Sourcegraph search.
+
 ## Look for usage examples:
 
 Say you're a developer looking for inspiration about how you could implement authN and authZ in C++. With our symbol search and our `lang:` filter, it's a piece of cake to find places to investigate:
@@ -40,9 +50,11 @@ context:global repo:github.com/intel/ lang:C++ auth type:symbol patternType:lite
 
 Click in to those symbols, and you'll be able to navigate the code using our [Code Intelligence](https://docs.sourcegraph.com/code_intelligence) functionality.
 
+Code visibility means it becomes significantly easier to leverage others' code for consistent, secure code across XPUs.
+
 ## Track licenses:
 
-Interested in figuring out what licenses your team is using? With our `file:` search to limit searches by file path, it's a piece of cake. Simply look at your license files, and go from there. For example, you can find every reference to the GPL in your license files:
+Interested in figuring out what licenses your team is using in order to ensure license compliance for secure, compliant software? With our `file:` search to limit searches by file path, it's a piece of cake. Simply look at your license files, and go from there. For example, you can find every reference to the GPL in your license files:
 
 ```sourcegraph
 context:global repo:github.com/intel/ file:license gpl patternType:literal
