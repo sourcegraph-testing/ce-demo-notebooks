@@ -1,6 +1,6 @@
 # Exploring Code with Sourcegraph
 
-Sourcegraph allows you to run precise, targeted searches across all of your code. This allows you to find what you need, make the right call with complete information, and continue with your day—ultimately supporting Intel's oneAPI and oneSource initiatives. 
+Sourcegraph allows you to run precise, targeted searches across all of your code. This allows you to find what you need, make the right call with complete information, and continue with your day—ultimately supporting Intel's oneAPI and innersource initiatives. 
 
 For a full list of the filters supported by our search functionality, [check out our search cheat sheet](https://learn.sourcegraph.com/how-to-search-code-with-sourcegraph-a-cheat-sheet).
 
